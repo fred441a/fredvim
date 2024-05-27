@@ -3,5 +3,7 @@
   imports = [ 
 	./bufferline.nix 
 	./telescope.nix
+	./keybindings.nix
+	./options.nix
 	];
 }
