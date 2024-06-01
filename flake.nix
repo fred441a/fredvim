@@ -33,6 +33,6 @@
           default = nvim;
         };
 
-        devShells.default = import ./shell.nix { inherit pkgs; };
+#        devShells.default = import ./shell.nix { inherit pkgs; };
       });
 }
