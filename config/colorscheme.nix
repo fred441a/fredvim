@@ -1,6 +1,7 @@
+{self,pkgs,...}:
 {
 	extraPlugins = with pkgs.vimPlugins; [
-		everforest-nvim
+		everforest
 	];
 	colorscheme = "everforest";
 

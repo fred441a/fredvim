@@ -3,7 +3,7 @@
 		telescope.enable = true;
 		bufferline.enable = true;
 		emmet.enable = true;
-		markdown-preview = true;
+		markdown-preview.enable = true;
 
 	};
 }
