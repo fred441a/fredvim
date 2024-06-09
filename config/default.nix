@@ -6,5 +6,6 @@
 	./keybindings.nix
 	./options.nix
 	./colorscheme.nix
+	./lsp.nix
 	];
 }
