@@ -2,7 +2,7 @@
   description = "Freds vim config";
 
   inputs = {
-  	nixokgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  	nixokgs.url = "github:fred441a/nixpkgs?ref=add-vim-webdevicon-plugin";
     nixvim.url = "github:nix-community/nixvim";
     flake-utils.url = "github:numtide/flake-utils";
   };
@@ -12,7 +12,7 @@
     in flake-utils.lib.eachDefaultSystem (system:
       let
         nixvimLib = nixvim.lib.${system};
-        pkgs = import nixpkgs { inherit system; };
+        pkgs = import nixpkgs { inherit system; config.allowUnfree=true; };
         nixvim' = nixvim.legacyPackages.${system};
         nvim = nixvim'.makeNixvimWithModule {
           inherit pkgs;

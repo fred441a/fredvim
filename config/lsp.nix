@@ -6,11 +6,11 @@
 		tsserver.enable = true;
 		marksman.enable = true;
 		jsonls.enable = true;
-		clangs.enable = true;
+		clangd.enable = true;
 		intelephense.enable = true;
-		vhdl-ls.enavble = true;
+		vhdl-ls.enable = true;
 		nixd.enable = true;
 		pyright.enable = true;
-		sqls.enbale = true;
+		sqls.enable = true;
 	};
 }
