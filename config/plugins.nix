@@ -1,4 +1,4 @@
-{self, pkgs, ...}:
+{pkgs, ...}:
 {
 	plugins = {
 		telescope.enable = true;
@@ -10,11 +10,25 @@
 		};
 		markdown-preview.enable = true;
 		nvim-colorizer.enable = true;
-		openscad.enable = true;
+		openscad = {
+			enable = true;
+			keymaps.enable = true;
+			autoOpen = true;
+			fuzzyFinder = "fzf";
+		};
 	};
 
+	extraPackages = with pkgs;[
+		skim
+		htop
+		zathura
+		fzf
+	];
+
 	extraPlugins = with pkgs.vimPlugins; [
-		vim-devicons
-		nvim-web-devicons
+		skim
+		fzfWrapper
+		fzf-vim
+		nvim-fzf
 	];
 }
