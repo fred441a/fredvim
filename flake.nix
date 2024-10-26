@@ -2,7 +2,7 @@
   description = "Freds vim config";
 
   inputs = {
-  	nixokgs.url = "github:fred441a/nixpkgs?ref=add-vim-webdevicon-plugin";
+  	nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
     nixvim.url = "github:nix-community/nixvim";
     flake-utils.url = "github:numtide/flake-utils";
   };
