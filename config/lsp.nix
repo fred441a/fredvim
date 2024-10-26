@@ -12,5 +12,6 @@
 		nixd.enable = true;
 		pyright.enable = true;
 		sqls.enable = true;
+		grammarly.enable = true;
 	};
 }
