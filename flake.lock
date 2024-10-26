@@ -214,32 +214,20 @@
         "type": "github"
       }
     },
-    "nixokgs": {
-      "locked": {
-        "lastModified": 1718047250,
-        "narHash": "sha256-31chxipPcg7MOoymXVrm8Ql8yhebfVjJZ7vmbFOq7fU=",
-        "owner": "fred441a",
-        "repo": "nixpkgs",
-        "rev": "0ec830174c12893fbb9da4a2ab9914ad21bf10ab",
-        "type": "github"
-      },
-      "original": {
-        "owner": "fred441a",
-        "ref": "add-vim-webdevicon-plugin",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 0,
-        "narHash": "sha256-bvGoiQBvponpZh8ClUcmJ6QnsNKw0EMrCQJARK3bI1c=",
-        "path": "/nix/store/y6205wq8hxvpqvl8l9d1n9xah01kg0lq-source",
-        "type": "path"
+        "lastModified": 1729691686,
+        "narHash": "sha256-BAuPWW+9fa1moZTU+jFh+1cUtmsuF8asgzFwejM4wac=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "32e940c7c420600ef0d1ef396dc63b04ee9cad37",
+        "type": "github"
       },
       "original": {
-        "id": "nixpkgs",
-        "type": "indirect"
+        "owner": "nixos",
+        "ref": "nixos-24.05",
+        "repo": "nixpkgs",
+        "type": "github"
       }
     },
     "nixpkgs_2": {
@@ -310,7 +298,6 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixokgs": "nixokgs",
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim"
       }
