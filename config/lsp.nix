@@ -1,17 +1,20 @@
+{pkgs,...}:
 {
 	plugins.lsp.enable = true;
 	plugins.lsp.servers = {
-		emmet-ls.enable = true;
+		emmet_ls.enable = true;
 		html.enable = true;
-		tsserver.enable = true;
+		ts_ls.enable = true;
 		marksman.enable = true;
 		jsonls.enable = true;
 		clangd.enable = true;
 		intelephense.enable = true;
-		vhdl-ls.enable = true;
+		intelephense.package = pkgs.intelephense;
+		vhdl_ls.enable = true;
 		nixd.enable = true;
 		pyright.enable = true;
 		sqls.enable = true;
 		grammarly.enable = true;
+		grammarly.package = null;
 	};
 }

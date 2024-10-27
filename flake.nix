@@ -1,8 +1,7 @@
 {
   description = "Freds vim config";
-
   inputs = {
-  	nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+  	nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixvim.url = "github:nix-community/nixvim";
     flake-utils.url = "github:numtide/flake-utils";
   };

@@ -5,5 +5,4 @@
 		vim-devicons
 	];
 	colorscheme = "everforest";
-
 }
