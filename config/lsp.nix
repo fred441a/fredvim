@@ -1,5 +1,6 @@
 {pkgs,...}:
 {
+
 	plugins.lsp.enable = true;
 	plugins.lsp.servers = {
 		emmet_ls.enable = true;
@@ -14,7 +15,5 @@
 		nixd.enable = true;
 		pyright.enable = true;
 		sqls.enable = true;
-		grammarly.enable = true;
-		grammarly.package = null;
 	};
 }
