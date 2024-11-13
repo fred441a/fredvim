@@ -1,5 +1,13 @@
 {pkgs,...}:
 {
+	plugins.cmp = {
+	  autoEnableSources = true;
+	  settings.sources = [
+		{ name = "nvim_lsp"; }
+		{ name = "path"; }
+		{ name = "buffer"; }
+	  ];
+	};
 
 	plugins.lsp.enable = true;
 	plugins.lsp.servers = {
