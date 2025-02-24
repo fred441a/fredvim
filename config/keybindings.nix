@@ -25,6 +25,25 @@
 			key="<C-S-Tab>";
 			action = "<cmd>BufferPrevious<CR>";
 		}
+		# LSP goto
+		{
+			mode = "n";
+			key = "gD";
+			action = "<cmd>lua vim.lsp.buf.declaration()<CR>";
+			options = {
+				noremap = true;
+				silent = true;
+			};
+		}
+		{
+			mode = "n";
+			key = "gd";
+			action = "<cmd>lua vim.lsp.buf.definition()<CR>";
+			options = {
+				noremap = true;
+				silent = true;
+			};
+		}
 	];
 	# CMP auto complete
 	plugins.cmp.settings.mapping = {
