@@ -10,13 +10,15 @@
 			clipboardPackage = pkgs.wl-clipboard;
 		};
 		markdown-preview.enable = true;
-		nvim-colorizer.enable = true;
+		colorizer.enable = true;
+		/*
 		openscad = {
 			enable = true;
 			keymaps.enable = true;
 			autoOpen = true;
 			fuzzyFinder = "fzf";
 		};
+		*/
 		web-devicons.enable = true;
 	};
 
