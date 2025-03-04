@@ -23,5 +23,8 @@
 		nixd.enable = true;
 		pyright.enable = true;
 		sqls.enable = true;
+		ltex = {
+			enable = true;
+		};
 	};
 }
