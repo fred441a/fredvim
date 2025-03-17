@@ -20,6 +20,7 @@
 		};
 		*/
 		web-devicons.enable = true;
+		vimtex.enable = true;
 	};
 
 	extraPackages = with pkgs;[
