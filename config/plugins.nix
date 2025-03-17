@@ -4,7 +4,10 @@
 		telescope.enable = true;
 		barbar.enable = true;
 		emmet.enable = true;
-		cmp.enable = true;
+		cmp = {
+			enable = true;
+			autoEnableSources = true;
+		};
 		clipboard-image = {
 			enable = true;
 			clipboardPackage = pkgs.wl-clipboard;
@@ -21,6 +24,7 @@
 		*/
 		web-devicons.enable = true;
 		vimtex.enable = true;
+		cmp-vimtex.enable = true;
 	};
 
 	extraPackages = with pkgs;[
