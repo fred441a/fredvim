@@ -44,6 +44,22 @@
 				silent = true;
 			};
 		}
+		# LSP show error
+		{
+			mode = "n";
+			key = "<S-u>";
+			action = "<cmd>lua vim.lsp.diagnostic.show_line_diagnostic()<CR>";
+			options = {
+				noremap = true;
+			};
+		}
+		#LSP format
+		{
+			mode = "n";
+			key = "<C-k>";
+			action = "<cmd> lua vim.lsp.buf.formatting()<CR>";
+		}
+
 	];
 	# CMP auto complete
 	plugins.cmp.settings.mapping = {
