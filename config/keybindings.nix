@@ -50,6 +50,12 @@
 			key = "<C-k>";
 			action = "<cmd> lua vim.lsp.buf.format()<CR>";
 		}
+		#LSP SHOW ERROR
+		{
+			mode = "n";
+			key = "gre";
+			action = "<cmd>lua vim.diagnostic.open_float()<CR>";
+		}
 
 	];
 	# CMP auto complete
