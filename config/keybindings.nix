@@ -44,16 +44,7 @@
 				silent = true;
 			};
 		}
-		# LSP show error
-		{
-			mode = "n";
-			key = "<S-u>";
-			action = "<cmd>lua vim.lsp.buf.hover()<CR>";
-			options = {
-				noremap = true;
-			};
-		}
-		#LSP format
+			#LSP format
 		{
 			mode = "n";
 			key = "<C-k>";

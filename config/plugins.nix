@@ -25,6 +25,7 @@
 		web-devicons.enable = true;
 		vimtex.enable = true;
 		cmp-vimtex.enable = true;
+		lsp-lines.enable = true;
 	};
 
 	extraPackages = with pkgs;[
