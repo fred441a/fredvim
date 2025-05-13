@@ -53,8 +53,11 @@
 		#LSP SHOW ERROR
 		{
 			mode = "n";
-			key = "gre";
+			key = "<S-u>";
 			action = "<cmd>lua vim.diagnostic.open_float()<CR>";
+			options = {
+				noremap = true;
+			}
 		}
 
 	];
