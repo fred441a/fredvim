@@ -48,7 +48,7 @@
 		{
 			mode = "n";
 			key = "<S-u>";
-			action = "<cmd>lua vim.lsp.diagnostic.show_line_diagnostic()<CR>";
+			action = "<cmd>lua vim.lsp.buf.hover()<CR>";
 			options = {
 				noremap = true;
 			};
@@ -57,7 +57,7 @@
 		{
 			mode = "n";
 			key = "<C-k>";
-			action = "<cmd> lua vim.lsp.buf.formatting()<CR>";
+			action = "<cmd> lua vim.lsp.buf.format()<CR>";
 		}
 
 	];
