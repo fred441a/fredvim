@@ -57,7 +57,7 @@
 			action = "<cmd>lua vim.diagnostic.open_float()<CR>";
 			options = {
 				noremap = true;
-			}
+			};
 		}
 
 	];
