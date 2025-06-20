@@ -24,12 +24,13 @@
 		*/
 		web-devicons.enable = true;
 		vimtex.enable = true;
+		texpresso.enable = true;
 		cmp-vimtex.enable = true;
 		lsp-lines.enable = true;
 	};
 
 	extraPackages = with pkgs;[
-		skim
+		texpresso
 		htop
 		zathura
 		fzf
