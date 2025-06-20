@@ -30,7 +30,6 @@
 	};
 
 	extraPackages = with pkgs;[
-		texpresso
 		htop
 		zathura
 		fzf
